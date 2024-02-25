@@ -1,0 +1,20 @@
+zaad 5				Zastosowanie		Znacznik
+type = "submit"  		przyciski 		<input>
+
+scrolling = "no/yes/auto"	strona internetowa	<body>
+				scrolowanie
+
+maxlength = "x"			długośc znaków 		<input>
+
+cellspacing			miejsce  komórek	<table>
+
+id = "header"			identyfikator elementu <h1>
+
+type ="text"			pole tekstowe		<input>
+
+zad 6
+1."submit" - przycisk
+2.."text" - pole tekstowe
+3."reset" - czyści formularz
+4. "file" - plik do przesyłania
+5."password" - umieszcza pole na hasło i gwiazdki
