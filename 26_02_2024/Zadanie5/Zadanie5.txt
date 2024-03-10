@@ -1,0 +1,5 @@
+HTML 4.01
+Znacznik bgsound odtwarza dźwięk w tle strony i działa tylko w przeglądarce Interenet Explorer
+
+HTML 5
+Tu znacznik bgsound zastąpiono znacznikiem audio i jest obsługiwany we wszystkich przeglądarkach

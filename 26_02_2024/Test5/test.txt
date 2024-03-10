@@ -1,0 +1,10 @@
+Zadanie1
+A
+Zadanie2
+C
+Zadanie3
+B
+Zadanie4
+D
+Zadanie5
+C

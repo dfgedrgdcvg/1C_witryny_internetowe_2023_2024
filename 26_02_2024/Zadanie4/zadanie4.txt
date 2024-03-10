@@ -1,0 +1,6 @@
+html 4
+-Zazwyczaj korzystano z zewnętrznych wtyczek, np. Flash, do obsługi dźwięku i wideo
+-Brak specjalnych atrybutów dla obługi mediów
+html 5
+-Dodano dedykowane znaczniki umożliwiające bezpośrednie osadzenie plików audio i wideo bez konieczności korzystania z innych wtyczek
+-Wprowadzono nowe atrybuty controls, autoplay, loop
