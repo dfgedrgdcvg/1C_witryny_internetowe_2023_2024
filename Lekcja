@@ -1,6 +1,6 @@
-<audio autoplay="autoplay" controls="controls">
+<audio  controls>
         <source src="dzwiek.mp3" type="audio/mpeg">
-    </audio>
+</audio>
     
 <iframe width="864" height="486" src="https://www.youtube.com/embed/yT9H3XCH88k" 
     title="Bezpieczna domowa sieć WiFi 🔐" 
@@ -8,3 +8,11 @@
     allowfullscreen></iframe>
 
  <img src="pociąg.jpg" width="100px" height="100px" alt="pociag" >
+
+<video autoplay loop controls width="328" height"333">
+        <source src="videos/movie.mp4" type="video/mp4">
+        </video>
+
+<picture>
+        <source media="(min-width:650px)" srcset="images/img_pink_flowers.jpg">
+</picture>
