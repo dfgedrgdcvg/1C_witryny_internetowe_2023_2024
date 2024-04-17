@@ -63,27 +63,22 @@
         </fieldset>
     </form>
     <form>
-        <fieldset>
-            <textarea>
-                <input type = "text" readonly>
-                <input list = "lista">
-                <datalist>
-                    <option value = "opcja 1">
-
-                    </option>
-                </datalist>
+      
+ <textarea disabled></textarea>
+ <input type = "text" readonly>
+ <input list = "lista">
+ <datalist id="lista">
+ <option value = "opcja 1"></option>
+</datalist>
                 <input type = "text" autocomplete = "off">
                 <input type = "text"
-                pattern="[0-9]{2}- [0-9]{3}" placeholder="00-000"
-                autocomplete = "off">
-            </textarea>
-
-        </fieldset>
-        <select>
-            <option VALUE = "45213">
-
-            </option>
-        </select>
+                pattern="[0-9]{2}- [0-9]{3}" placeholder="00-000">
+                <select>
+                    <option>wartosc1</option>
+                    <option>wartosc2</option>
+                </select>
+       
+    
     </form>
 </body>
 </html>
