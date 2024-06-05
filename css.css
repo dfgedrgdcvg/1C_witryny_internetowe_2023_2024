@@ -1,0 +1,13 @@
+*{
+    background-color: gray;
+    color: #FFF;
+}
+
+section {
+    color: green;
+}
+
+class {
+    color: red;
+    text-align: center;
+}
