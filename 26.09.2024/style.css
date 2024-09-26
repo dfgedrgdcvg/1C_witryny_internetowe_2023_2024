@@ -1,0 +1,22 @@
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 150px;
+}
+
+ul a:link{
+    display: block;
+    width: 140px;
+    background-color: chartreuse;
+    color: crimson;
+    padding: 4px;
+    border: 3px outset black;
+}
+
+a:visited{
+    color: blue;
+}
