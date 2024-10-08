@@ -1,0 +1,10 @@
+
+                                                  JavaScript                           PHP
+
+Rok powstania                                     1995                                 1994
+
+główny autor                                      Brendan Eich                         Rasmusa Lerdorfa        
+
+Wykonywany po stronie klienta/serwera             klienta                              serwera
+
+Numer ostatniej wersji                            ECMAScript 2024                      8.2

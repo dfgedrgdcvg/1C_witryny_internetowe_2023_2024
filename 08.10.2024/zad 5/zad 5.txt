@@ -1,0 +1,7 @@
+1. start-rozpoczyna działanie programu
+2. podaj a - użytkownik podaje wartość a
+3. podaj b - użytkownik podaje wartość b
+4. suma=a+b - oblicza sume wartości a i b
+5. a<b - sprawdzanie warunku czy b jest większe od a jeśli warunek jest spełniony algorytm przechodzi do kroku "wypisz a" jeśli warunek jest nie spełniony algorytm przechodzi do kroku "wypisz b"
+6. w zależności od warunku algorytm wypisuje albo a albo b
+7. stop - algorytm kończy zadanie

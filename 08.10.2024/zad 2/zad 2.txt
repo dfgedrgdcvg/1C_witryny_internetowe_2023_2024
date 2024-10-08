@@ -1,0 +1,28 @@
+Wady i zalety wykonywania skryptów po stronie klienta:
+
+Zalety:
+
+1.Szybkość działania:
+Skrypty po stronie klienta są wykonywane bezpośrednio w przeglądarce użytkownika, co może przyspieszyć interakcje i zmniejszyć obciążenie serwera.
+
+2.Interaktywność:
+Umożliwiają tworzenie dynamicznych i interaktywnych elementów na stronie, takich jak animacje, formularze czy gry.
+
+3.Zmniejszenie obciążenia serwera:
+Przeniesienie części logiki na klienta zmniejsza ilość zapytań do serwera, co może poprawić wydajność aplikacji.
+
+4.Bezpieczeństwo serwera:
+Ponieważ skrypty są wykonywane na komputerze użytkownika, serwer jest mniej narażony na ataki typu DoS (Denial of Service).
+
+Wady:
+1.Bezpieczeństwo:
+Skrypty po stronie klienta mogą być podatne na ataki, takie jak wstrzykiwanie kodu (XSS) czy kradzież danych.
+
+2.Zależność od przeglądarki:
+Różne przeglądarki mogą różnie interpretować kod JavaScript, co może prowadzić do niekompatybilności i błędów.
+
+3.Brak kontroli nad środowiskiem wykonawczym:
+Programista nie ma kontroli nad tym, jakie rozszerzenia czy ustawienia ma użytkownik w swojej przeglądarce, co może wpływać na działanie skryptów.
+
+4.Wydajność:
+Wykonywanie złożonych operacji po stronie klienta może obciążać zasoby komputera użytkownika, co może prowadzić do spowolnienia działania aplikacji.

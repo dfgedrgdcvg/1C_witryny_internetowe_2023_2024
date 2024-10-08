@@ -1,0 +1,32 @@
+Wymień wady i zalety wykonywania skryptów po stronie serwera.
+
+Zalety skryptów po stronie serwera:
+
+1.Bezpieczeństwo:
+Skrypty po stronie serwera są ukryte przed użytkownikiem, co zwiększa bezpieczeństwo danych i logiki aplikacji.
+
+2.Dostęp do zasobów serwera:
+Możliwość bezpośredniego dostępu do baz danych, plików i innych zasobów serwera.
+
+3.Skalowalność:
+Serwery mogą być skalowane w celu obsługi większej liczby użytkowników bez konieczności modyfikacji kodu po stronie klienta.
+
+4.Kompatybilność:
+Skrypty po stronie serwera działają niezależnie od przeglądarki użytkownika, co eliminuje problemy z kompatybilnością.
+
+5.Centralizacja logiki:
+Logika aplikacji jest centralnie zarządzana na serwerze, co ułatwia aktualizacje i konserwację.
+
+Wady skryptów po stronie serwera:
+
+1.Obciążenie serwera:
+Wykonywanie skryptów po stronie serwera może zwiększać obciążenie serwera, co może wpływać na wydajność aplikacji.
+
+2.Opóźnienia sieciowe:
+Każde żądanie do serwera wymaga przesyłania danych przez sieć, co może powodować opóźnienia, zwłaszcza przy dużym obciążeniu.
+
+3.Brak interaktywności w czasie rzeczywistym:
+Skrypty po stronie serwera nie mogą reagować na zdarzenia użytkownika w czasie rzeczywistym tak szybko, jak skrypty po stronie klienta.
+
+4.Koszty utrzymania serwera:
+Utrzymanie serwera, na którym wykonywane są skrypty, wiąże się z dodatkowymi kosztami, takimi jak hosting i zarządzanie serwerem.
