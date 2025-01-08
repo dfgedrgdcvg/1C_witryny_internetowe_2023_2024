@@ -1,0 +1,8 @@
+.fixed-element {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
