@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="textInput" placeholder="Wpisz coś ">
+    <button id="changeButton">Zmień na Hello World!</button>
+
+    <script>
+        let inputElement = document.getElementById('textInput');
+        let buttonElement = document.getElementById('changeButton');
+
+        buttonElement.addEventListener('click', function() {
+            inputElement.value = 'Hello World!';
+        });
+    </script>
+</body>
+</html>

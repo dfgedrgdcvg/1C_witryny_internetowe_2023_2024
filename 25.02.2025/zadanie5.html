@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="textInput" placeholder="Wpisz coś">
+    <button id="addButton">Dodaj do listy</button>
+    <ul id="list"></ul>
+
+    <script>
+        let inputElement = document.getElementById('textInput');
+        let buttonElement = document.getElementById('addButton');
+        let listElement = document.getElementById('list');
+
+        buttonElement.addEventListener('click', function() {
+            let text = inputElement.value.trim();
+            if (text) {
+                let newListItem = document.createElement('li');
+                newListItem.textContent = text;
+                listElement.appendChild(newListItem);
+                inputElement.value = '';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="myInput" placeholder="dsbsdb">
+    <button onclick="showValue()">Pokaz</button>
+    <div id="output"></div>
+    <script>
+        function showValue() {
+            let inputValue; {
+                let inputValue = document.getElementById("myInput").value;
+                document.getElementById("output").textContent = "wpisano: " + inputValue;
+            }
+        }
+    </script>
+</body>
+</html>

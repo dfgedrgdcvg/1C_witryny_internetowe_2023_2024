@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="incrementButton">Kliknij</button>
+    <p id="counter">Licznik: 0</p>
+    <script>
+        let count = 0;
+        let buttonElement = document.getElementById('incrementButton');
+        let counterElement = document.getElementById('counter');
+        buttonElement.addEventListener('click', function() {
+            count++;
+            counterElement.textContent = 'Licznik: ' + count;
+        });
+    </script>
+</body>
+</html>

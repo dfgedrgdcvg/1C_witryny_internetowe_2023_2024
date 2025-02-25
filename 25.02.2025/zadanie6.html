@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="colorButton">Zmień kolor tła</button>
+    <script>
+        let buttonElement = document.getElementById('colorButton');
+        buttonElement.addEventListener('click', function() {
+            let randomColor = '#' + Math.floor(Math.random() * 13777214).toString(16);
+            document.body.style.backgroundColor = randomColor;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #resize {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="resizeDiv"></div>
+    <button id="resizeButton">Zwiększ szerokość</button>
+    <script>
+        let divElement = document.getElementById('resizeDiv');
+        let buttonElement = document.getElementById('resizeButton');
+        buttonElement.addEventListener('click', function() {
+            let currentWidth = divElement.offsetWidth;
+            divElement.style.width = (currentWidth + 50) + 'px';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">Naciśnij Enter</h1>
+
+    <script>
+        let headerElement = document.getElementById('header');
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                let randomColor = '#' + Math.floor(Math.random() * 13477215).toString(16);
+                headerElement.style.color = randomColor;
+            }
+        });
+    </script>
+</body>
+</html>
