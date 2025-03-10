@@ -1,0 +1,18 @@
+body {
+    background: red;
+    
+}
+@media (prefers_color_scheme: dark) {
+}
+
+
+@media print {
+    body {
+        font-size: 12pt;
+        color: black;
+        background: white;
+    }
+    nav, footer {
+        display: none; /*ukrywamy elementy nieistotne w wydruku */
+    }
+}

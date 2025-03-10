@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+
+.menu {
+    display: none;
+}
+
+.header {
+    font-size: 1.2rem;
+}
+}
