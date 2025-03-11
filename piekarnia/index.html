@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piekarnia</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -23,19 +24,21 @@
         <p>Od 31 lat oferujemy najwyższej jakości pieczywo. Naturalnie świeże, naturalnie smaczne. Pieczemy wyłącznie wypieki na naturanym zakwasie bez polepszaczy i zagęstników. Korzystamy wyłącznie z najlepszych ziaren pochodzących z ekologicznych upraw położonych w rejonach zgierskim i ozorkowskim.</p>
     </section>
 
-    <section class="rodzaj-wypieku">
-        <h3>Wybierz rodzaj wypieku: </h3>
-        <select>
-            <option>WYBORY CUKIERNICZE I CIASTKARSKIE</option>
-        </select>
-        <button>Wybierz</button>
-        <table>
+    <select id="wyb" onchange="showTable()">
+        <option value="t1">WYROBY CUKIERNICZE I CIASTKARSKIE</option>
+        <option value="t2">WYROBY SŁODKIE</option>
+    </select>
+    <button>Wybierz</button>
+    <table id="t1" class="hid">
+        <thead>
             <tr>
                 <th>Rodzaj</th>
                 <th>Nazwa</th>
                 <th>Gramatura</th>
                 <th>Cena</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>PIECZYWO MIESZANE</td>
                 <td>Chleb baltonowski</td>
@@ -44,8 +47,8 @@
             </tr>
             <tr>
                 <td>PIECZYWO MIESZANE</td>
-                <td>Chleb duży wiejski</td>
-                <td>1.0</td>
+                <td>Chleb wiejski</td>
+                <td>1</td>
                 <td>5.05</td>
             </tr>
             <tr>
@@ -56,21 +59,15 @@
             </tr>
             <tr>
                 <td>PIECZYWO MIESZANE</td>
-                <td>Chleb z soją i słonecznikiem</td>
+                <td>Chleb z słonecznikiem</td>
                 <td>0.5</td>
-                <td>3.05</td>
+                <td>3.45</td>
             </tr>
             <tr>
                 <td>PIECZYWO MIESZANE</td>
-                <td>Chleb wieloziarnisty "słońce"</td>
-                <td>0.4</td>
-                <td>2.65</td>
-            </tr>
-            <tr>
-                <td>PIECZYWO MIESZANE</td>
-                <td>Chleb razowy 4 ziarna</td>
+                <td>Chleb wieloziarnisty "Słońce"</td>
                 <td>0.5</td>
-                <td>3.05</td>
+                <td>3.45</td>
             </tr>
             <tr>
                 <td>PIECZYWO MIESZANE</td>
@@ -78,9 +75,56 @@
                 <td>0.6</td>
                 <td>3.45</td>
             </tr>
-        </table>
-    </section>
-
+        </tbody>
+    </table>
+    <table id="t2" class="hid">
+        <thead>
+            <tr>
+                <th>Rodzaj</th>
+                <th>Nazwa</th>
+                <th>Gramatura</th>
+                <th>Cena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PIECZYWO MIESZANE</td>
+                <td>Ciastka</td>
+                <td>0.8</td>
+                <td>4.45</td>
+            </tr>
+            <tr>
+                <td>PIECZYWO MIESZANE</td>
+                <td>Ciastka z kremem</td>
+                <td>2</td>
+                <td>7.05</td>
+            </tr>
+            <tr>
+                <td>PIECZYWO MIESZANE</td>
+                <td>Pączek z lukrem</td>
+                <td>0.7</td>
+                <td>4.45</td>
+            </tr>
+            <tr>
+                <td>PIECZYWO MIESZANE</td>
+                <td>Drożdżówka z budyniem</td>
+                <td>1</td>
+                <td>5.45</td>
+            </tr>
+            <tr>
+                <td>PIECZYWO MIESZANE</td>
+                <td>Pączek z konfiturą</td>
+                <td>0.7</td>
+                <td>4.45</td>
+            </tr>
+            <tr>
+                <td>PIECZYWO MIESZANE</td>
+                <td>Drożdżówka</td>
+                <td>0.8</td>
+                <td>3.45</td>
+            </tr>
+        </tbody>
+    </table>
     <footer>
         <p>Autor: 1234567890</p>
         <p>Data: 30.03.2023</p>
