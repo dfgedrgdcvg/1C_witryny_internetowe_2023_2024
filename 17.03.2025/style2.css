@@ -1,0 +1,20 @@
+.box {
+    width: 45%;
+    padding: 20px;
+    color: white;
+}
+
+
+.left {
+    background-color: blue;
+    float: left;
+}
+
+.right {
+    background-color: green;
+    float: right;
+}
+
+.container {
+    overflow: auto;
+}
